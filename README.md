@@ -5,12 +5,19 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/exploratorystudios/Tetra-Tennis-Golf"><img src="https://img.shields.io/badge/Tetra_Tennis_Golf-25_lines_of_Tetris-8B5CF6?style=for-the-badge" alt="Tetra Tennis Golf"></a>
-  <a href="https://github.com/exploratorystudios/shmup-golf"><img src="https://img.shields.io/badge/Shmup_Golf-7_lines_of_shmup-EF4444?style=for-the-badge" alt="Shmup-Golf"></a>
-  <a href="https://github.com/exploratorystudios/QuickChat"><img src="https://img.shields.io/badge/QuickChat-local_LLM_client-3B82F6?style=for-the-badge" alt="QuickChat"></a>
-  <a href="https://github.com/exploratorystudios/DitherPal"><img src="https://img.shields.io/badge/DitherPal-image_dithering-F59E0B?style=for-the-badge" alt="DitherPal"></a>
-  <a href="https://github.com/exploratorystudios/gemspire"><img src="https://img.shields.io/badge/Gemspire-match--3_roguelike-10B981?style=for-the-badge" alt="Gemspire"></a>
-  <a href="https://github.com/exploratorystudios/HermesOptimus-v3"><img src="https://img.shields.io/badge/HermesOptimus_V3-neural_net_on_a_TI--84-EC4899?style=for-the-badge" alt="HermesOptimus V3"></a>
+  <a href="https://github.com/exploratorystudios/Tetra-Tennis-Golf"><img src="https://img.shields.io/badge/Tetra_Tennis_Golf-25_Lines_of_Tetris-7C3AED?style=for-the-badge&labelColor=0d1117&logo=python&logoColor=a78bfa" alt="Tetra Tennis Golf"></a>
+  &nbsp;
+  <a href="https://github.com/exploratorystudios/shmup-golf"><img src="https://img.shields.io/badge/Shmup_Golf-7_Lines_of_Shmup-DC2626?style=for-the-badge&labelColor=0d1117&logo=python&logoColor=fca5a5" alt="Shmup-Golf"></a>
+</p>
+<p align="center">
+  <a href="https://github.com/exploratorystudios/QuickChat"><img src="https://img.shields.io/badge/QuickChat-Local_LLM_Client-2563EB?style=for-the-badge&labelColor=0d1117&logo=qt&logoColor=93c5fd" alt="QuickChat"></a>
+  &nbsp;
+  <a href="https://github.com/exploratorystudios/DitherPal"><img src="https://img.shields.io/badge/DitherPal-Image_%26_Video_Dithering-D97706?style=for-the-badge&labelColor=0d1117&logo=python&logoColor=fcd34d" alt="DitherPal"></a>
+</p>
+<p align="center">
+  <a href="https://github.com/exploratorystudios/gemspire"><img src="https://img.shields.io/badge/Gemspire-Match--3_Roguelike-059669?style=for-the-badge&labelColor=0d1117&logo=javascript&logoColor=6ee7b7" alt="Gemspire"></a>
+  &nbsp;
+  <a href="https://github.com/exploratorystudios/HermesOptimus-v3"><img src="https://img.shields.io/badge/HermesOptimus_V3-Neural_Net_on_a_TI--84-DB2777?style=for-the-badge&labelColor=0d1117&logo=python&logoColor=f9a8d4" alt="HermesOptimus V3"></a>
 </p>
 
 ---
