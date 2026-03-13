@@ -5,18 +5,18 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/exploratorystudios/Tetra-Tennis-Golf"><img src="https://img.shields.io/badge/Tetra_Tennis_Golf-25_Lines_of_Tetris-c4b5fd?style=flat-square&labelColor=7c3aed&logo=python&logoColor=ede9fe" alt="Tetra Tennis Golf"></a>
+  <a href="https://github.com/exploratorystudios/Tetra-Tennis-Golf"><img src="https://img.shields.io/badge/Tetra_Tennis_Golf-25_Lines_of_Tetris-c4b5fd?style=flat&labelColor=7c3aed&logo=python&logoColor=ede9fe" alt="Tetra Tennis Golf"></a>
   &nbsp;&nbsp;
-  <a href="https://github.com/exploratorystudios/shmup-golf"><img src="https://img.shields.io/badge/Shmup_Golf-7_Lines_of_Shmup-fca5a5?style=flat-square&labelColor=dc2626&logo=python&logoColor=fee2e2" alt="Shmup-Golf"></a>
+  <a href="https://github.com/exploratorystudios/shmup-golf"><img src="https://img.shields.io/badge/Shmup_Golf-7_Lines_of_Shmup-fca5a5?style=flat&labelColor=dc2626&logo=python&logoColor=fee2e2" alt="Shmup-Golf"></a>
   &nbsp;&nbsp;
-  <a href="https://github.com/exploratorystudios/QuickChat"><img src="https://img.shields.io/badge/QuickChat-Local_LLM_Client-93c5fd?style=flat-square&labelColor=2563eb&logo=qt&logoColor=dbeafe" alt="QuickChat"></a>
+  <a href="https://github.com/exploratorystudios/QuickChat"><img src="https://img.shields.io/badge/QuickChat-Local_LLM_Client-93c5fd?style=flat&labelColor=2563eb&logo=qt&logoColor=dbeafe" alt="QuickChat"></a>
 </p>
 <p align="center">
-  <a href="https://github.com/exploratorystudios/DitherPal"><img src="https://img.shields.io/badge/DitherPal-Image_%26_Video_Dithering-fcd34d?style=flat-square&labelColor=d97706&logo=python&logoColor=fef3c7" alt="DitherPal"></a>
+  <a href="https://github.com/exploratorystudios/DitherPal"><img src="https://img.shields.io/badge/DitherPal-Image_%26_Video_Dithering-fcd34d?style=flat&labelColor=d97706&logo=python&logoColor=fef3c7" alt="DitherPal"></a>
   &nbsp;&nbsp;
-  <a href="https://github.com/exploratorystudios/gemspire"><img src="https://img.shields.io/badge/Gemspire-Match--3_Roguelike-6ee7b7?style=flat-square&labelColor=059669&logo=javascript&logoColor=d1fae5" alt="Gemspire"></a>
+  <a href="https://github.com/exploratorystudios/gemspire"><img src="https://img.shields.io/badge/Gemspire-Match--3_Roguelike-6ee7b7?style=flat&labelColor=059669&logo=javascript&logoColor=d1fae5" alt="Gemspire"></a>
   &nbsp;&nbsp;
-  <a href="https://github.com/exploratorystudios/HermesOptimus-v3"><img src="https://img.shields.io/badge/HermesOptimus_V3-Neural_Net_on_a_TI--84-f9a8d4?style=flat-square&labelColor=db2777&logo=python&logoColor=fce7f3" alt="HermesOptimus V3"></a>
+  <a href="https://github.com/exploratorystudios/HermesOptimus-v3"><img src="https://img.shields.io/badge/HermesOptimus_V3-Neural_Net_on_a_TI--84-f9a8d4?style=flat&labelColor=db2777&logo=python&logoColor=fce7f3" alt="HermesOptimus V3"></a>
 </p>
 
 ---
