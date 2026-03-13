@@ -1,6 +1,10 @@
 <h1 align="center">Exploratory Studios</h1>
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/exploratorystudios/exploratorystudios/main/logo.gif" alt="Exploratory Studios Logo">
+</p>
+
+<p align="center">
   <em>The limitation is where the interesting part begins.</em>
 </p>
 
