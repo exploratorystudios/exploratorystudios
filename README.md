@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <em>The limitation is where the interesting part begins.</em>
+  <em>The constraint does not limit the work. It becomes the work.</em>
 </p>
 
 <p align="center">
@@ -88,9 +88,3 @@ Five dithering algorithms (Floyd-Steinberg, Jarvis-Judice-Ninke, Bayer, Rosette 
 > A match-3 roguelike in one HTML file.
 
 Fully browser-based, vanilla JavaScript, no frameworks, no build step. Match gems across a 7×7 board, collect relics between floors, and spend crystals on permanent upgrades across runs. Over 20 relics, a prestige economy, hard mode, and enough depth to keep pulling you back in, all in a single self-contained file.
-
----
-
-<p align="center">
-  <em>The constraint does not limit the work. It becomes the work.</em>
-</p>
