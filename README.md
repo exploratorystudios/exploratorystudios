@@ -55,7 +55,7 @@ Complete, playable games in as few lines of Python as possible. No semicolons. E
 
 > Full Tetris in 25 lines of Python.
 
-All seven tetrominoes, hold, ghost piece, hard drop, rotation, next-piece preview, and progressive difficulty, running in your terminal, cross-platform, in a single function called `g`. The board uses Unicode half-block characters to pack double vertical resolution into each terminal row. "Tetris" is trademarked. "Tennis" is there for the vibes.
+All seven tetrominoes, hold, ghost piece, hard drop, rotation, next-piece preview, and progressive difficulty, running in your terminal, cross-platform, in a single function called `g`. The board uses Unicode half-block characters to pack double vertical resolution into each terminal row.
 
 ### [Shmup-Golf](https://github.com/exploratorystudios/shmup-golf)
 
