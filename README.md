@@ -27,9 +27,7 @@
 
 ---
 
-I build things that probably shouldn't work as well as they do. Games in single-digit line counts, neural networks on graphing calculators, tools that do something genuinely useful and stay out of your way. The hardware constraints aren't obstacles I'm working around — they're usually where the interesting design decisions happen.
-
-I work mostly in Python, sometimes in vanilla JavaScript, and once in TI-BASIC because the problem required it.
+I build things that probably shouldn't work as well as they do. Games in single-digit line counts, neural networks on graphing calculators, tools that do something genuinely useful and stay out of your way. The hardware constraints aren't obstacles I'm working around. They're usually where the interesting design decisions happen.
 
 ---
 
@@ -39,19 +37,19 @@ I work mostly in Python, sometimes in vanilla JavaScript, and once in TI-BASIC b
 
 > A syllable-level autoregressive language model that runs on a TI-84 Plus CE.
 
-Trained in Python with NumPy, deployed entirely on-calculator. The model uses phonetic syllable tokenization with a 198-dimensional hidden layer factored into six parallel output heads (onset, nucleus, coda, stress, word boundary, and role) with a 10-syllable context window and separate 16-dimensional discourse and 8-dimensional word state that carry meaning across generation. The architecture is built around the TI-84's 10×99 matrix limit and 256KB of RAM. H1 contributions are precomputed ahead of time so the calculator adds vectors instead of multiplying full matrices at each step. A full generation run takes 2.5 to 3 hours. You have to keep an eye on it for garbage collection prompts. I find that adds something.
+Trained in Python with NumPy, deployed entirely on-calculator. The model uses phonetic syllable tokenization with a 198-dimensional hidden layer factored into six parallel output heads (onset, nucleus, coda, stress, word boundary, and role) with a 10-syllable context window and separate 16-dimensional discourse and 8-dimensional word state that carry meaning across generation. The architecture is built around the TI-84's matrix constraints and ~150KB of RAM. H1 contributions are precomputed ahead of time so the calculator adds vectors instead of multiplying full matrices at each step. A full generation run takes 2.5 to 3 hours. You have to keep an eye on it for garbage collection prompts. I find that adds something.
 
 ### [HermesOptimus V3](https://github.com/exploratorystudios/HermesOptimus-v3)
 
 > A neural network word classifier deployed on a TI-84 Plus Silver Edition.
 
-A 30-50-12 feedforward network trained in Python with NumPy, deployed as TI-BASIC with weights exported to calculator-native matrix files. Classifies and autocorrects 24 four-letter words — typos, scrambled letters, missing characters — entirely on a graphing calculator with 56KB of RAM. Uses 12-bit binary output encoding matched via Hamming distance instead of softmax, because the hardware made softmax impractical and Hamming distance turned out to be the smarter call anyway.
+A 30-50-12 feedforward network trained in Python with NumPy, deployed as TI-BASIC with weights exported to calculator-native matrix files. Classifies and autocorrects 24 four-letter words (typos, scrambled letters, missing characters) entirely on a graphing calculator with 56KB of RAM. Uses 12-bit binary output encoding matched via Hamming distance instead of softmax, because the hardware made softmax impractical and Hamming distance turned out to be the smarter call anyway.
 
 ---
 
 ## Code Golf
 
-Complete, playable games in as few lines of Python as possible. No semicolons — each line is one logical statement. Each ships with a readable reference version alongside the compressed one, so you can understand it, look at the compressed version again, and hopefully feel something different the second time.
+Complete, playable games in as few lines of Python as possible. No semicolons. Each line is one logical statement. Each ships with a readable reference version alongside the compressed one, so you can understand it, look at the compressed version again, and hopefully feel something different the second time.
 
 ### [Tetra Tennis Golf](https://github.com/exploratorystudios/Tetra-Tennis-Golf)
 
@@ -79,7 +77,7 @@ A full-featured PySide6 application for running local LLMs privately. Real-time 
 
 > High-performance image and video dithering.
 
-Five dithering algorithms — Floyd-Steinberg, Jarvis-Judice-Ninke, Bayer, Rosette halftone, and Text Pattern — all JIT-compiled through Numba for up to 500x speedups. Supports images, animated GIFs, and video. KMeans color palette extraction, memory-aware chunked processing for large files, and a clean PyQt6 interface.
+Five dithering algorithms (Floyd-Steinberg, Jarvis-Judice-Ninke, Bayer, Rosette halftone, and Text Pattern), all JIT-compiled through Numba for up to 500x speedups. Supports images, animated GIFs, and video. KMeans color palette extraction, memory-aware chunked processing for large files, and a clean PyQt6 interface.
 
 ---
 
@@ -89,7 +87,7 @@ Five dithering algorithms — Floyd-Steinberg, Jarvis-Judice-Ninke, Bayer, Roset
 
 > A match-3 roguelike in one HTML file.
 
-Fully browser-based, vanilla JavaScript, no frameworks, no build step. Match gems across a 7×7 board, collect relics between floors, and spend crystals on permanent upgrades across runs. Over 20 relics, a prestige economy, hard mode, and enough depth to keep pulling you back in — all in a single self-contained file.
+Fully browser-based, vanilla JavaScript, no frameworks, no build step. Match gems across a 7×7 board, collect relics between floors, and spend crystals on permanent upgrades across runs. Over 20 relics, a prestige economy, hard mode, and enough depth to keep pulling you back in, all in a single self-contained file.
 
 ---
 
