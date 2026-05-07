@@ -39,7 +39,7 @@ I work mostly in Python, sometimes in vanilla JavaScript, and once in TI-BASIC b
 
 > A syllable-level autoregressive language model that runs on a TI-84 Plus CE.
 
-Trained in Python with NumPy, deployed entirely on-calculator. The model uses phonetic syllable tokenization with a 198-dimensional hidden layer factored into six parallel output heads — onset, nucleus, coda, stress, word boundary, and role — with a 10-syllable context window and separate 16-dimensional discourse and 8-dimensional word state that carry meaning across generation. The architecture is built around the TI-84's 10×99 matrix limit and 256KB of RAM. H1 contributions are precomputed ahead of time so the calculator adds vectors instead of multiplying full matrices at each step. A full generation run takes 2.5 to 3 hours. You have to keep an eye on it for garbage collection prompts. I find that adds something.
+Trained in Python with NumPy, deployed entirely on-calculator. The model uses phonetic syllable tokenization with a 198-dimensional hidden layer factored into six parallel output heads (onset, nucleus, coda, stress, word boundary, and role) with a 10-syllable context window and separate 16-dimensional discourse and 8-dimensional word state that carry meaning across generation. The architecture is built around the TI-84's 10×99 matrix limit and 256KB of RAM. H1 contributions are precomputed ahead of time so the calculator adds vectors instead of multiplying full matrices at each step. A full generation run takes 2.5 to 3 hours. You have to keep an eye on it for garbage collection prompts. I find that adds something.
 
 ### [HermesOptimus V3](https://github.com/exploratorystudios/HermesOptimus-v3)
 
