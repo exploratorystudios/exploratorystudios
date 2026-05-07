@@ -61,7 +61,7 @@ All seven tetrominoes, hold, ghost piece, hard drop, rotation, next-piece previe
 
 > A horizontal shoot-em-up in 7 lines of Python.
 
-You are two characters. The world scrolls past you. A procedurally generated cave tries to kill you, three enemy types try to kill you, and spikes try to kill you. A powerup occasionally makes you invincible and triggers rapid autofire. The function signature alone contains the entire cross-platform input system.
+You are two ASCII characters. The world scrolls past you. A procedurally generated cave tries to kill you, three enemy types try to kill you, and spikes try to kill you. A powerup occasionally makes you invincible and triggers rapid autofire. The function signature alone contains the entire cross-platform input system.
 
 ---
 
