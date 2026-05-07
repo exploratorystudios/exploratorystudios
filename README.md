@@ -9,13 +9,15 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/exploratorystudios/TILM2"><img src="https://img.shields.io/badge/TILM2-Language_Model_on_TI--84_CE-67e8f9?style=flat&labelColor=0891b2&logo=python&logoColor=cffafe" alt="TILM2"></a>
+  &nbsp;&nbsp;
   <a href="https://github.com/exploratorystudios/HermesOptimus-v3"><img src="https://img.shields.io/badge/HermesOptimus_V3-Neural_Net_on_a_TI--84-f9a8d4?style=flat&labelColor=db2777&logo=python&logoColor=fce7f3" alt="HermesOptimus V3"></a>
   &nbsp;&nbsp;
   <a href="https://github.com/exploratorystudios/Tetra-Tennis-Golf"><img src="https://img.shields.io/badge/Tetra_Tennis_Golf-25_Lines_of_Tetris-c4b5fd?style=flat&labelColor=7c3aed&logo=python&logoColor=ede9fe" alt="Tetra Tennis Golf"></a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/exploratorystudios/shmup-golf"><img src="https://img.shields.io/badge/Shmup_Golf-7_Lines_of_Shmup-fca5a5?style=flat&labelColor=dc2626&logo=python&logoColor=fee2e2" alt="Shmup-Golf"></a>
 </p>
 <p align="center">
+  <a href="https://github.com/exploratorystudios/shmup-golf"><img src="https://img.shields.io/badge/Shmup_Golf-7_Lines_of_Shmup-fca5a5?style=flat&labelColor=dc2626&logo=python&logoColor=fee2e2" alt="Shmup-Golf"></a>
+  &nbsp;&nbsp;
   <a href="https://github.com/exploratorystudios/QuickChat"><img src="https://img.shields.io/badge/QuickChat-Local_LLM_Client-93c5fd?style=flat&labelColor=2563eb&logo=qt&logoColor=dbeafe" alt="QuickChat"></a>
   &nbsp;&nbsp;
   <a href="https://github.com/exploratorystudios/DitherPal"><img src="https://img.shields.io/badge/DitherPal-Image_%26_Video_Dithering-fcd34d?style=flat&labelColor=d97706&logo=python&logoColor=fef3c7" alt="DitherPal"></a>
@@ -25,27 +27,31 @@
 
 ---
 
-I build software that treats constraints as creative material, games compressed into single-digit line counts, neural networks deployed on graphing calculators, desktop applications where performance isn't an afterthought but the whole conversation. Every project here is a small study in what happens when you take a limitation seriously, not as something to work around, but as the parameter that shapes the architecture itself.
+I build things that probably shouldn't work as well as they do. Games in single-digit line counts, neural networks on graphing calculators, tools that do something genuinely useful and stay out of your way. The hardware constraints aren't obstacles I'm working around — they're usually where the interesting design decisions happen.
 
-The through-line is a question: *what survives compression?* A 25-line Tetris clone isn't a parlor trick. It's an excavation. Strip away every luxury and what remains are the mechanics that actually mattered, the ones you never noticed when the code had room to breathe. That is what I find interesting. The constraint reveals the essential geometry of the thing.
-
-I work primarily in Python, occasionally in vanilla JavaScript, and once on a TI-84 Plus Silver Edition because the problem required it and the hardware had something to teach me.
+I work mostly in Python, sometimes in vanilla JavaScript, and once in TI-BASIC because the problem required it.
 
 ---
 
 ## Machine Learning
 
+### [TILM2](https://github.com/exploratorystudios/TILM2)
+
+> A syllable-level autoregressive language model that runs on a TI-84 Plus CE.
+
+Trained in Python with NumPy, deployed entirely on-calculator. The model uses phonetic syllable tokenization with a 198-dimensional hidden layer factored into six parallel output heads — onset, nucleus, coda, stress, word boundary, and role — with a 10-syllable context window and separate 16-dimensional discourse and 8-dimensional word state that carry meaning across generation. The architecture is built around the TI-84's 10×99 matrix limit and 256KB of RAM. H1 contributions are precomputed ahead of time so the calculator adds vectors instead of multiplying full matrices at each step. A full generation run takes 2.5 to 3 hours. You have to keep an eye on it for garbage collection prompts. I find that adds something.
+
 ### [HermesOptimus V3](https://github.com/exploratorystudios/HermesOptimus-v3)
 
 > A neural network word classifier deployed on a TI-84 Plus Silver Edition.
 
-A 30-50-12 network trained in Python with NumPy, deployed as TI-BASIC with weights exported to calculator-native matrix files. It classifies and error-corrects 24 four-letter words, handling typos, scrambled letters, and missing characters, entirely on a graphing calculator with 56KB of RAM. Uses 12-bit binary output encoding matched via Hamming distance instead of softmax, because the hardware demanded a smarter design.
+A 30-50-12 feedforward network trained in Python with NumPy, deployed as TI-BASIC with weights exported to calculator-native matrix files. Classifies and autocorrects 24 four-letter words — typos, scrambled letters, missing characters — entirely on a graphing calculator with 56KB of RAM. Uses 12-bit binary output encoding matched via Hamming distance instead of softmax, because the hardware made softmax impractical and Hamming distance turned out to be the smarter call anyway.
 
 ---
 
 ## Code Golf
 
-Complete, playable games compressed into as few lines of Python as possible. No semicolons. Each line is one logical statement. Each ships with a readable unobfuscated reference, so you can understand what the compressed version does, look at the compressed version again, and feel something different the second time.
+Complete, playable games in as few lines of Python as possible. No semicolons — each line is one logical statement. Each ships with a readable reference version alongside the compressed one, so you can understand it, look at the compressed version again, and hopefully feel something different the second time.
 
 ### [Tetra Tennis Golf](https://github.com/exploratorystudios/Tetra-Tennis-Golf)
 
@@ -67,13 +73,13 @@ You are two characters. The world scrolls past you. A procedurally generated cav
 
 > A desktop chat client for local language models through Ollama.
 
-A full-featured PySide6 application for running local LLMs privately. Supports real-time reasoning visualization, vision input, conversation forking, LaTeX rendering, and adaptive streaming. Dark and light themes, persistent chat history, Markdown and JSON export. No telemetry. Everything stays on your machine.
+A full-featured PySide6 application for running local LLMs privately. Real-time reasoning visualization, vision input, conversation forking, LaTeX rendering, and adaptive streaming. Dark and light themes, persistent chat history, Markdown and JSON export. No telemetry. Everything stays on your machine.
 
 ### [DitherPal](https://github.com/exploratorystudios/DitherPal)
 
 > High-performance image and video dithering.
 
-Five dithering algorithms, Floyd-Steinberg, Jarvis-Judice-Ninke, Bayer, Rosette halftone, and Text Pattern, all JIT-compiled through Numba for up to 500x speedups. Supports images, animated GIFs, and video. Intelligent color palette extraction via KMeans, memory-aware chunked processing for large files, and a clean PyQt6 dark-themed interface.
+Five dithering algorithms — Floyd-Steinberg, Jarvis-Judice-Ninke, Bayer, Rosette halftone, and Text Pattern — all JIT-compiled through Numba for up to 500x speedups. Supports images, animated GIFs, and video. KMeans color palette extraction, memory-aware chunked processing for large files, and a clean PyQt6 interface.
 
 ---
 
@@ -83,7 +89,7 @@ Five dithering algorithms, Floyd-Steinberg, Jarvis-Judice-Ninke, Bayer, Rosette 
 
 > A match-3 roguelike in one HTML file.
 
-A fully browser-based roguelike built in vanilla JavaScript with no frameworks and no build step. Match gems across a 7x7 board, collect relics between floors, and spend crystals on permanent upgrades across runs. Over 20 relics, a prestige economy, hard mode, and enough depth to keep pulling you back in, all in a single self-contained file.
+Fully browser-based, vanilla JavaScript, no frameworks, no build step. Match gems across a 7×7 board, collect relics between floors, and spend crystals on permanent upgrades across runs. Over 20 relics, a prestige economy, hard mode, and enough depth to keep pulling you back in — all in a single self-contained file.
 
 ---
 
