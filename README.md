@@ -43,7 +43,7 @@ Trained in Python with NumPy, deployed entirely on-calculator. The model uses ph
 
 > A neural network word classifier deployed on a TI-84 Plus Silver Edition.
 
-A 30-50-12 feedforward network trained in Python with NumPy, deployed as TI-BASIC with weights exported to calculator-native matrix files. Classifies and autocorrects 24 four-letter words (typos, scrambled letters, missing characters) entirely on a graphing calculator with 56KB of RAM. Uses 12-bit binary output encoding matched via Hamming distance instead of softmax, because the hardware made softmax impractical and Hamming distance turned out to be the smarter call anyway.
+A 30-50-12 feedforward network trained in Python with NumPy, deployed as TI-BASIC with weights exported to calculator-native matrix files. Classifies and autocorrects 24 four-letter words (typos, scrambled letters, missing characters) entirely on a graphing calculator with 24KB of RAM. Uses 12-bit binary output encoding matched via Hamming distance instead of softmax, because the hardware made softmax impractical and Hamming distance turned out to be the smarter call anyway.
 
 ---
 
